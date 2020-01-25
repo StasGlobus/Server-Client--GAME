@@ -1,0 +1,12 @@
+awesome_student
+message Hi there!
+play 5
+play -3
+play 3
+play 8
+message I think I will quit
+play 4
+message hi
+blahhh
+play 2
+exit
