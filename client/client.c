@@ -167,7 +167,7 @@ static DWORD SendDataThread(void)		//this is the consumer.
 	{
 
 		strcpy(ReadFromBufferString, "");
-		wait_res = WaitForSingleObject(mutex_buffer, WAIT_TIME); //chenged timing here
+		wait_res = WaitForSingleObject(mutex_buffer, INFINITE); //chenged timing here
 		if (wait_res != WAIT_OBJECT_0) ReportErrorAndEndProgram();
 
 
