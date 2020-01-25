@@ -120,7 +120,7 @@
   <ItemGroup>
     <ClCompile Include="..\Share\SocketSendRecvTools.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="Source.c" />
+    <ClCompile Include="server.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Share\SocketExampleShared.h" />
